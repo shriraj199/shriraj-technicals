@@ -1,109 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
+	 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 	<title>about</title>
 	<style>
-		*{margin: 0;padding: 0;font-family: 'Rubik', sans-serif;}
+*{margin: 0;padding: 0;font-family: 'Rubik', sans-serif;}
 header{
-	width: 100%;
-	height: 100vh;
-	background-image: linear-gradient(,#fff 0%,#c3f5ff 100%);
+  width: 100%;
+  height: 100vh;
+  background-color:cyan;
 
 }
 .logo{
-	width: 40%;
-	color: #fff;
-	padding-left: 100px;
+  width: 40%;
+  color: #fff;
+  padding-left: 100px;
 box-sizing: border-box; 
 background-image: linear-gradient(#8d98e3 40%,#854fee 60%);
 
 
 }
 .navsection{
-	width: 100%;
-	height: 10vh;
-	display: flex;justify-content: space-around;
-	background-image: linear-gradient(to top,#fff 80%,#c3f5ff 20%);
-	align-items: center;
+  width: 100%;
+  height: 10vh;
+  padding-top: 10px;
+  display: flex;justify-content: space-around;
+  background-image: linear-gradient(to top,lightgreen 80%,#c3f5ff 0%);
+  align-items: center;
 }
 .logo h1{
 
-	text-transform: uppercase;
-	font-size: 1.6rem;
-	animation: front 2s linear infinite;
-	animation-direction: alternate;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  animation: front 2s linear infinite;
+  animation-direction: alternate;
 }
 @keyframes front{
-	from{padding-left: 40px;}
-	to{padding-right: 40px;}
+  from{padding-left: 40px;}
+  to{padding-right: 40px;}
 }
 nav{
-	width: 60%;
-	display: flex;
-	justify-content: space-around;
-	text-transform: uppercase;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
 
 }
-nav .link{
-	text-transform: uppercase;
-	font-weight: 900;
-	color: #000;
-	font-size: 17px;
-	position: relative;
-	text-decoration: none;
+nav a{
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #000;
+  font-size: 17px;
+  position: relative;
+  text-decoration: none;
 }
 
 }
 }
-.link:before{
-	content: "";
-	position: absolute;
-	top: 0;
-	left:0;
-	width: 0;
-	height: 2px;
-	
-	
+a{
+  content: "";
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 0;
+  height: 2px;
+
+
+  
 }
-.link:hover{
-	
-border-bottom: 2px solid #4458dc;
-transition: all 0.4s linear;
+a:hover{
+border-bottom: 2px solid violet ;
+transition: all 1s alternate;
+  
+
+}
+.link{
+  padding-top: 10px;
 }
 main{
-	height: 80vh;
-	display: flex;
-	justify-content:space-around;
-	align-items: center;
-	text-transform: uppercase;
+  height: 80vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  text-transform: uppercase;
 }
 .rightside{
-border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;
-background-color: #e8fbff;
+border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
 }
 .rightside img{
-	max-width: 400px;
-	height: auto;
+  max-width: 400px;
+  height: auto;
 }
 h3{
-	font-size: 70px;
-	margin-bottom: 20px
+  font-size: 70px;
+
 }
-h2{
-	margin-bottom: 20px;
-}
+
 h4{
-	margin-bottom: 20px;
-	font-weight: 500;
-}
-p{
-	font-weight: 500;
-}
 
-
-h2{color: red;
-	text-transform: uppercase;
+  font-weight: 500;
 }
+.code{
+  border: 2px solid;
+  width:1000px;
+  color:red;
+  font-weight: 900;
+padding: 20px;
+  background-color: #fff;
+}h2{text-transform: uppercase;
+  border-bottom: 2px solid;
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btn{
+text-decoration: none;
+font-weight: 900;
+font-size: 14px;
+text-align: center;
+padding:12px 25px;
+text-transform: uppercase;
+border-radius: 5px;
+display: inline-block;
+margin-right: 50px;
+letter-spacing: 0;
+background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+border: double 2px transparent;
+box-shadow: 0 10px 30px rgba(118,85,225,.3);
+} 
 	</style>
 	</head>
 <body>
@@ -117,12 +141,12 @@ h2{color: red;
            <a href="index.html"class="link">home</a>
          <a href="https://www.youtube.com/channel/UCNcq5tqk5bbtt_iVvVD8f-w"target="_blank"class="link">my youtube channel</a>
          <a href="source code.html"class="link">source code</a>
-         <a href="#"class="link" style="color: #4458dc">about</a>
+         <a href="#"class="link" style="border: 2px solid;border-radius: 12px;color:white;background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);padding: 10px;">about</a>
 
          </nav><br></section>
         <center> 
-        	<h2><u>about website</h1></u>
-        	<p>My website is for the source code.<br>most of the people needs tutorial of html and also the source code of that html tutorial.<br>This website is usefull & helpfull for them who are weak in coding or programming.<br>This website is fully safe you can go through it.<br>by clicking "HOME" you can go through my home page.<br>In home page there is an button named "MY SECOND WEBSITE" by clicking go through my second website.<br>by clicking "MY YOUTUBE CHANNEL" you can go through my youtube channel<br> and if you have not subscribed my channel then plz subscribe my channel <br>Watch my video till end.If you think that my video was useful to you then plz give me one like <br>and share it with your friends too.so that they can also learn coding.<br>by clicking "SOURCE CODE" you can go through my source code.<br> Which i am using in my YouTube channel.This will help you too.Most of the people want tutorial of coding with source code .<br>so I'm providing them an source code.<br>I hope you like my website and it is useful to you.<br><br>for contact:-<br>E-mail on - shriraj122shetty@gmail.com</p><br><br><br><br><hr><br><br>
+        	<h2><u>about website</h2></u>
+        	<p class="code">My website is for the source code.<br>most of the people needs tutorial of html and also the source code of that html tutorial.<br>This website is usefull & helpfull for them who are weak in coding or programming.<br>This website is fully safe you can go through it.<br>by clicking "HOME" you can go through my home page.<br>In home page there is an button named "MY SECOND WEBSITE" by clicking go through my second website.<br>by clicking "MY YOUTUBE CHANNEL" you can go through my youtube channel<br> and if you have not subscribed my channel then plz subscribe my channel <br>Watch my video till end.If you think that my video was useful to you then plz give me one like <br>and share it with your friends too.so that they can also learn coding.<br>by clicking "SOURCE CODE" you can go through my source code.<br> Which i am using in my YouTube channel.This will help you too.Most of the people want tutorial of coding with source code .<br>so I'm providing them an source code.<br>I hope you like my website and it is useful to you.<br><br>for contact:-<br>E-mail on - shriraj122shetty@gmail.com</p><br><br><br><br><hr><br><br>
         	<p>Copyrights@2020.,Shriraj Technicals.</p></center><br><br><hr>
 
 </body>
